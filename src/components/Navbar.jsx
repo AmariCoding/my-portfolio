@@ -21,7 +21,7 @@ export const Navbar = ({ menuOpen, setMenuOpen, scrolled }) => {
           >
             jerome
             <span className="text-blue-500 transition-all duration-300 group-hover:text-cyan-400">
-              .stack
+              .dev
             </span>
             <span className="inline-block ml-1 h-4 w-2 bg-blue-500 animate-blink group-hover:bg-cyan-400"></span>
           </a>
