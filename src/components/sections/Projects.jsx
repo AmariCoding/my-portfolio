@@ -102,7 +102,7 @@ export const Projects = () => {
                 handling, and a clean, user-friendly interface.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                {["React Native", "TypeScript", "Appwrite", "PostgreSQL"].map(
                   (tech) => (
                     <span
                       key={tech}
