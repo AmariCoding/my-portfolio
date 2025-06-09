@@ -19,7 +19,7 @@ export const Footer = () => {
 
           <div className="flex space-x-6">
             <SocialLink
-              href="www.linkedin.com/in/jerome-guya-58756b21b"
+              href="https://linkedin.com/in/jerome-guya-58756b21b"
               aria-label="LinkedIn"
             >
               <FaLinkedin size={22} />
