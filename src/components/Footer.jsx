@@ -21,21 +21,18 @@ export const Footer = () => {
             <SocialLink
               href="www.linkedin.com/in/jerome-guya-58756b21b"
               aria-label="LinkedIn"
-              target="_blank"
             >
               <FaLinkedin size={22} />
             </SocialLink>
             <SocialLink
               href="https://github.com/AmariCoding"
               aria-label="GitHub"
-              target="_blank"
             >
               <FaGithub size={22} />
             </SocialLink>
             <SocialLink
               href="https://www.facebook.com/jerome.dev/"
               aria-label="Facebook"
-              target="_blank"
             >
               <FaFacebook size={22} />
             </SocialLink>
