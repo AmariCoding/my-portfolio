@@ -81,7 +81,8 @@ export const About = () => {
                 </li>
                 <li>
                   Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Computing, Object-Oriented Programming, and Mobile Application
+                  Development.
                 </li>
               </ul>
             </div>
