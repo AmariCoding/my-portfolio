@@ -18,32 +18,35 @@ export const Footer = () => {
           </div>
 
           <div className="flex space-x-6">
-            <SocialLink href="https://linkedin.com" aria-label="LinkedIn">
+            <SocialLink
+              href="www.linkedin.com/in/jerome-guya-58756b21b"
+              aria-label="LinkedIn"
+              target="_blank"
+            >
               <FaLinkedin size={22} />
             </SocialLink>
-            <SocialLink href="https://github.com" aria-label="GitHub">
+            <SocialLink
+              href="https://github.com/AmariCoding"
+              aria-label="GitHub"
+              target="_blank"
+            >
               <FaGithub size={22} />
             </SocialLink>
-            <SocialLink href="https://facebook.com" aria-label="Facebook">
+            <SocialLink
+              href="https://www.facebook.com/jerome.dev/"
+              aria-label="Facebook"
+              target="_blank"
+            >
               <FaFacebook size={22} />
             </SocialLink>
           </div>
 
           <div className="text-sm text-gray-400">
-            <p>© {new Date().getFullYear()} All rights reserved</p>
+            <p>© jerome.dev {new Date().getFullYear()} All rights reserved</p>
           </div>
         </div>
 
         <div className="mt-8 pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="flex gap-6 text-sm text-gray-400">
-            <a href="#" className="hover:text-blue-400 transition-colors">
-              Privacy Policy
-            </a>
-            <a href="#" className="hover:text-blue-400 transition-colors">
-              Terms of Service
-            </a>
-          </div>
-
           <div className="text-xs text-gray-500">Designed & Built with ❤️</div>
         </div>
       </div>
